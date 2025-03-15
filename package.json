@@ -1,0 +1,26 @@
+{
+  "name": "sports-management-system",
+  "version": "1.0.0",
+  "description": "A sports management system for Thapar by gdsc",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --exec node src/index.js",
+    "testdb": "nodemon -r dotenv/config --exec node scripts/testdb.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
