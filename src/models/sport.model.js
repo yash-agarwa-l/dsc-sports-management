@@ -24,3 +24,5 @@ const sportSchema = new mongoose.Schema(
     }
 )
 
+export const Sport=mongoose.model("sport",sportSchema)
+

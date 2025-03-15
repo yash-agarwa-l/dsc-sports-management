@@ -17,4 +17,4 @@ const courtSchema = new mongoose.Schema(
     }
 )
 
-export const Court=mongoose.model("equipment",courtSchema)
+export const Court=mongoose.model("court",courtSchema)
