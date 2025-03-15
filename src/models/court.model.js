@@ -9,12 +9,14 @@ const courtSchema = new mongoose.Schema(
         quantity:{
             type: Number,
             required: true,
+        },
+        sport:{
+            type: Schema.Types.ObjectId,
+            ref: "Sport"
         }
-
     },
     {
         timestamps: true
     }
 )
-
 export const Court=mongoose.model("court",courtSchema)
